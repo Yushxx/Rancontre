@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Trouver un partenaire</title>
+</head>
+<body>
+    <h1>Trouver un partenaire</h1>
+    <h2>Partenaire 1</h2>
+    <p>Nom: {{ partner1['name'] }}</p>
+    <p>Âge: {{ partner1['age'] }}</p>
+    <p>Genre: {{ partner1['gender'] }}</p>
+    <img src="{{ partner1['photo'] }}" alt="Photo de profil"><br>
+
+    <h2>Partenaire 2</h2>
+    <p>Nom: {{ partner2['name'] }}</p>
+    <p>Âge: {{ partner2['age'] }}</p>
+    <p>Genre: {{ partner2['gender'] }}</p>
+    <img src="{{ partner2['photo'] }}" alt="Photo de profil"><br>
+
+    <a href="/find_partner">Trouver un autre partenaire</a>
+</body>
+</html>

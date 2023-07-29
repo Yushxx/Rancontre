@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Créer mon profil</title>
+</head>
+<body>
+    <h1>Créer mon profil</h1>
+    <form method="post">
+        <label for="name">Nom:</label>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="age">Âge:</label>
+        <input type="number" id="age" name="age" required><br>
+
+        <label for="gender">Genre:</label>
+        <select id="gender" name="gender" required>
+            <option value="homme">Homme</option>
+            <option value="femme">Femme</option>
+            <option value="non-binaire">Non-binaire</option>
+        </select><br>
+
+        <label for="photo">Photo de profil (URL):</label>
+        <input type="text" id="photo" name="photo" required><br>
+
+        <input type="submit" value="Créer mon profil">
+    </form>
+</body>
+</html>
